@@ -1,4 +1,4 @@
-Hello java!!
+Basic Java maven app.
 -----------
 
 - [] assign limit
