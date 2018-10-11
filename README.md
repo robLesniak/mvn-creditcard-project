@@ -1,7 +1,7 @@
 Basic Java maven app.
 -----------
 
-- [] assign limit
+- [x] assign limit
 - [] block credit card
 - [] withdraw
 - []  if card not blocker
