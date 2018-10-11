@@ -7,3 +7,7 @@ Hello java!!
 - []  if card not blocker
 - []  can afford
 - [] repay limit
+- 
+- TECHNICAL REQ
+- [] java >= 8
+- [] maven
