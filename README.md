@@ -3,10 +3,10 @@ Basic Java maven app.
 
 - [x] assign limit
 - [x] block credit card
-- [] withdraw
+- [x] withdraw
 - []  if card not blocker
 - []  can afford
-- [] repay limit
+- [x] repay limit
 -
 - TECHNICAL REQ
 - [] java >= 8

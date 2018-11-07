@@ -1,39 +1,41 @@
 package pl.rlesniak.creditcard;
 
 class CreditCard {
-private boolean isBlocked;
+    private boolean isBlocked;
 
     private double balance;
     private double cardLimit;
+    private double debtAmount;
 
-    
-    public void assignLimit(double limit){
+    public void assignLimit(double limit) {
         balance = limit;
         cardLimit = limit;
     }
-    
-    public double getLimit(){
+
+    public double getLimit() {
         return 2000;
     }
-    
 
-    public void block(){
-        isBlocked = true;  
+
+    public void block() {
+        isBlocked = true;
     }
-    
-    public boolean isBlocked(){
+
+    public boolean isBlocked() {
         return isBlocked;
+    }
 
-
-    public void withdraw(double amount){
+    public void withdraw(double amount) {
         balance -= amount;
     }
-    
+
     public double getBalance() {
         return balance;
 
-	}
-    public void repay repayDebt(){
-		//didn't remeber what this method should do :(
-	}
+    }
+
+    public void repayDebt(double debtRepay) {
+        debtAmount -= debtRepay;
+        balance -= debtRepay;
+    }
 }
